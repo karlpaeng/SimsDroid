@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SimsDroid</string>
+    <string name="hello_world2">Hello World2!</string>
+    <string name="main2">main2</string>
+    <string name="register_product">Register Product</string>
+    <string name="view_inventory">View Inventory</string>
+    <string name="view_transactions">View Transactions</string>
+    <string name="create_order">Create Order</string>
+    <string name="menu">SSS Manager</string>
+    <string name="add_more">add more</string>
+    <string name="remove">remove</string>
+    <string name="scan_product">Scan Product</string>
+    <string name="barcode_scan">Barcode Scan</string>
+    <string name="product_name">Product</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="search_product">Search Product</string>
+    <string name="select">Select</string>
+    <string name="search">Search</string>
+    <string name="quantitties">asd</string>
+    <string name="next">next</string>
+    <string name="no_barcode">no barcode</string>
+    <string name="v">v</string>
+    <string name="order_details">Order Details</string>
+    <string name="total">Total : </string>
+    <string name="order">Order # :</string>
+    <string name="date">Date :</string>
+    <string name="kjt">© KJT</string>
+    <string name="login">Login</string>
+    <string name="username">   Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="please_answer_the_following_questions">Please answer the following questions</string>
+    <string name="answer" tools:ignore="DuplicateDefinition">Answer</string>
+    <string name="strengthen_your_security">Strengthen your security.</string>
+    <string name="answer1">Answer</string>
+    <string name="continue1">continue</string>
+    <string name="register_a_product">Register a Product</string>
+    <string name="amount_in_stock">Amount in stock</string>
+    <string name="text_questions">Please answer the following questions:</string>
+    <string-array name="q1">
+        <item>What was the house number and street name you lived in as a child?</item>
+        <item>What were the last four digits of your childhood telephone number?</item>
+        <item>What primary school did you attend?</item>
+    </string-array>
+    >
+
+    <string-array name="q2">
+        <item>In what town or city was your first full time job?</item>
+        <item>What is the middle name of your oldest child?</item>
+        <item>What time of the day were you born? (hh:mm)</item>
+    </string-array>
+
+</resources>
