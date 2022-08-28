@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.softwareengineering"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:6:5-73
+8        android:minSdkVersion="26"
+8-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:6:5-73
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:6:5-73
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:8:5-65
+11-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:8:22-62
+12
+13    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+14    <uses-feature
+14-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:25:5-27:36
+15        android:name="android.hardware.camera"
+15-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:26:9-47
+16        android:required="false" />
+16-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:27:9-33
+17    <uses-feature
+17-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:28:5-30:36
+18        android:name="android.hardware.camera.front"
+18-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:29:9-53
+19        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+19-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:30:9-33
+20    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+21    <uses-feature
+21-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:33:5-35:36
+22        android:name="android.hardware.camera.autofocus"
+22-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:34:9-57
+23        android:required="false" />
+23-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:35:9-33
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:36:5-38:36
+25        android:name="android.hardware.camera.flash"
+25-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:37:9-53
+26        android:required="false" />
+26-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:38:9-33
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:39:5-41:36
+28        android:name="android.hardware.screen.landscape"
+28-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:40:9-57
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:41:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:42:5-44:36
+31        android:name="android.hardware.wifi"
+31-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:43:9-45
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:44:9-33
+33
+34    <application
+34-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:10:5-52:19
+35        android:allowBackup="true"
+35-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:11:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.7.0-alpha01] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\6956998c365f18fe04a0cdf78719f450\core-1.7.0-alpha01\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:hardwareAccelerated="true"
+39-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:12:9-43
+40        android:icon="@mipmap/ic_rounded_square"
+40-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:13:9-49
+41        android:label="@string/app_name"
+41-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:14:9-41
+42        android:roundIcon="@mipmap/ic_rounded_square"
+42-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:15:9-54
+43        android:supportsRtl="true"
+43-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:16:9-35
+44        android:theme="@style/Theme.MaterialComponents.NoActionBar" >
+44-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:17:9-68
+45        <activity android:name="com.example.softwareengineering.OrderDetailsActivityCopy" />
+45-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:18:9-71
+45-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:18:19-59
+46        <activity android:name="com.example.softwareengineering.ScanProductCopyActivity" />
+46-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:19:9-61
+46-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:19:19-58
+47        <activity android:name="com.example.softwareengineering.SplashScreenActivity" >
+47-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:20:9-26:20
+47-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:20:19-55
+48            <intent-filter>
+48-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:21:13-25:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:22:17-69
+49-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:22:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:24:17-77
+51-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:24:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity android:name="com.example.softwareengineering.UpdateDataActivity" />
+54-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:27:9-56
+54-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:27:19-53
+55        <activity android:name="com.example.softwareengineering.RegisterProductActivity" />
+55-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:28:9-61
+55-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:28:19-58
+56        <activity android:name="com.example.softwareengineering.SearchProduct2Activity" />
+56-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:29:9-60
+56-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:29:19-57
+57        <activity android:name="com.example.softwareengineering.ViewInventoryActivity" />
+57-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:30:9-59
+57-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:30:19-56
+58        <activity android:name="com.example.softwareengineering.TransactionActivity" />
+58-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:31:9-57
+58-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:31:19-54
+59        <activity android:name="com.example.softwareengineering.UserCreationActivity" />
+59-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:32:9-58
+59-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:32:19-55
+60        <activity android:name="com.example.softwareengineering.Settings" />
+60-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:33:9-46
+60-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:33:19-43
+61        <activity android:name="com.example.softwareengineering.SecQuestionActivity" />
+61-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:34:9-57
+61-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:34:19-54
+62        <activity android:name="com.example.softwareengineering.ForgotPass2Activity" />
+62-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:35:9-57
+62-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:35:19-54
+63        <activity android:name="com.example.softwareengineering.ForgotPassActivity" />
+63-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:36:9-56
+63-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:36:19-53
+64        <activity android:name="com.example.softwareengineering.LoginActivity" />
+64-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:37:9-51
+64-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:37:19-48
+65        <activity android:name="com.example.softwareengineering.OrderDetailsActivity" />
+65-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:38:9-58
+65-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:38:19-55
+66        <activity android:name="com.example.softwareengineering.NoBarcodeActivity" />
+66-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:39:9-55
+66-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:39:19-52
+67        <activity android:name="com.example.softwareengineering.ScanProductActivity" />
+67-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:40:9-57
+67-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:40:19-54
+68        <activity android:name="com.example.softwareengineering.MainActivity2" />
+68-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:41:9-51
+68-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:41:19-48
+69        <activity android:name="com.example.softwareengineering.MainActivity" />
+69-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:42:9-50
+69-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:42:19-47
+70        <activity
+70-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:43:9-47:57
+71            android:name="com.example.softwareengineering.Capture"
+71-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:44:13-36
+72            android:screenOrientation="portrait"
+72-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:45:13-49
+73            android:stateNotNeeded="true"
+73-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:46:13-42
+74            android:theme="@style/zxing_CaptureTheme" />
+74-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:47:13-54
+75
+76        <meta-data
+76-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:49:9-51:57
+77            android:name="preloaded_fonts"
+77-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:50:13-43
+78            android:resource="@array/preloaded_fonts" />
+78-->C:\Users\Admin\Desktop\ONLINE_CLASS\2nd Sem\CS 3213 - SOFTWARE ENGINEERING 2\SoftwareEngineering\SoftwareEngineering\app\src\main\AndroidManifest.xml:51:13-54
+79
+80        <activity
+80-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:47:9-53:63
+81            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+81-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:48:13-74
+82            android:clearTaskOnLaunch="true"
+82-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:49:13-45
+83            android:screenOrientation="sensorLandscape"
+83-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:50:13-56
+84            android:stateNotNeeded="true"
+84-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:51:13-42
+85            android:theme="@style/zxing_CaptureTheme"
+85-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
+86            android:windowSoftInputMode="stateAlwaysHidden" />
+86-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\dc37821a7dc734b495ec1dfbdb16a40e\zxing-android-embedded-4.2.0\AndroidManifest.xml:53:13-60
+87        <activity
+87-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a5b42fb7ded305bf1d8396bf2b43c84e\play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+88            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+88-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a5b42fb7ded305bf1d8396bf2b43c84e\play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a5b42fb7ded305bf1d8396bf2b43c84e\play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a5b42fb7ded305bf1d8396bf2b43c84e\play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+91
+92        <meta-data
+92-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\56aff306c75dac277ff3176677b57b98\play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+93            android:name="com.google.android.gms.version"
+93-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\56aff306c75dac277ff3176677b57b98\play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+94            android:value="@integer/google_play_services_version" />
+94-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\56aff306c75dac277ff3176677b57b98\play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+95    </application>
+96
+97</manifest>

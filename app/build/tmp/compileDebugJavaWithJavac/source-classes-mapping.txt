@@ -1,0 +1,119 @@
+com/example/softwareengineering/MainActivity.java
+ com.example.softwareengineering.MainActivity
+ com.example.softwareengineering.MainActivity$1
+ com.example.softwareengineering.MainActivity$2
+ com.example.softwareengineering.MainActivity$3
+ com.example.softwareengineering.MainActivity$4
+ com.example.softwareengineering.MainActivity$5
+ com.example.softwareengineering.MainActivity$6
+ com.example.softwareengineering.MainActivity$7
+com/example/softwareengineering/OrderDetailsActivity.java
+ com.example.softwareengineering.OrderDetailsActivity
+ com.example.softwareengineering.OrderDetailsActivity$1
+com/example/softwareengineering/OrderDetailsActivityCopy.java
+ com.example.softwareengineering.OrderDetailsActivityCopy
+ com.example.softwareengineering.OrderDetailsActivityCopy$1
+com/example/softwareengineering/SearchProduct2Activity.java
+ com.example.softwareengineering.SearchProduct2Activity
+com/example/softwareengineering/RegisterProductActivity.java
+ com.example.softwareengineering.RegisterProductActivity
+ com.example.softwareengineering.RegisterProductActivity$1
+ com.example.softwareengineering.RegisterProductActivity$1$1
+ com.example.softwareengineering.RegisterProductActivity$1$2
+ com.example.softwareengineering.RegisterProductActivity$2
+ com.example.softwareengineering.RegisterProductActivity$3
+ com.example.softwareengineering.RegisterProductActivity$3$1
+ com.example.softwareengineering.RegisterProductActivity$3$2
+ com.example.softwareengineering.RegisterProductActivity$4
+ com.example.softwareengineering.RegisterProductActivity$5
+ com.example.softwareengineering.RegisterProductActivity$6
+com/example/softwareengineering/UserCreationActivity.java
+ com.example.softwareengineering.UserCreationActivity
+ com.example.softwareengineering.UserCreationActivity$1
+ com.example.softwareengineering.UserCreationActivity$2
+ com.example.softwareengineering.UserCreationActivity$3
+com/example/softwareengineering/ProductModel.java
+ com.example.softwareengineering.ProductModel
+com/example/softwareengineering/UserLogin.java
+ com.example.softwareengineering.UserLogin
+com/example/softwareengineering/MainActivity2.java
+ com.example.softwareengineering.MainActivity2
+ com.example.softwareengineering.MainActivity2$1
+ com.example.softwareengineering.MainActivity2$2
+ com.example.softwareengineering.MainActivity2$3
+ com.example.softwareengineering.MainActivity2$4
+ com.example.softwareengineering.MainActivity2$5
+com/example/softwareengineering/SecQuestionActivity.java
+ com.example.softwareengineering.SecQuestionActivity
+ com.example.softwareengineering.SecQuestionActivity$1
+com/example/softwareengineering/ForgotPassActivity.java
+ com.example.softwareengineering.ForgotPassActivity
+ com.example.softwareengineering.ForgotPassActivity$1
+com/example/softwareengineering/Capture.java
+ com.example.softwareengineering.Capture
+com/example/softwareengineering/DatabaseHelper.java
+ com.example.softwareengineering.DatabaseHelper
+com/example/softwareengineering/OrderDetails.java
+ com.example.softwareengineering.OrderDetails
+com/example/softwareengineering/ViewInventoryActivity.java
+ com.example.softwareengineering.ViewInventoryActivity
+ com.example.softwareengineering.ViewInventoryActivity$1
+ com.example.softwareengineering.ViewInventoryActivity$2
+ com.example.softwareengineering.ViewInventoryActivity$3
+ com.example.softwareengineering.ViewInventoryActivity$4
+ com.example.softwareengineering.ViewInventoryActivity$4$1
+ com.example.softwareengineering.ViewInventoryActivity$4$2
+com/example/softwareengineering/ForgotPass2Activity.java
+ com.example.softwareengineering.ForgotPass2Activity
+ com.example.softwareengineering.ForgotPass2Activity$1
+com/example/softwareengineering/ScanProductActivity.java
+ com.example.softwareengineering.ScanProductActivity
+ com.example.softwareengineering.ScanProductActivity$1
+ com.example.softwareengineering.ScanProductActivity$2
+ com.example.softwareengineering.ScanProductActivity$3
+ com.example.softwareengineering.ScanProductActivity$4
+ com.example.softwareengineering.ScanProductActivity$5
+ com.example.softwareengineering.ScanProductActivity$6
+ com.example.softwareengineering.ScanProductActivity$7
+ com.example.softwareengineering.ScanProductActivity$8
+com/example/softwareengineering/Transactions.java
+ com.example.softwareengineering.Transactions
+com/example/softwareengineering/UpdateDataActivity.java
+ com.example.softwareengineering.UpdateDataActivity
+ com.example.softwareengineering.UpdateDataActivity$1
+com/example/softwareengineering/LoginActivity.java
+ com.example.softwareengineering.LoginActivity
+ com.example.softwareengineering.LoginActivity$1
+ com.example.softwareengineering.LoginActivity$2
+ com.example.softwareengineering.LoginActivity$3
+com/example/softwareengineering/Settings.java
+ com.example.softwareengineering.Settings
+ com.example.softwareengineering.Settings$1
+ com.example.softwareengineering.Settings$1$1
+ com.example.softwareengineering.Settings$1$2
+ com.example.softwareengineering.Settings$2
+com/example/softwareengineering/OrderDetailsActivity2.java
+ com.example.softwareengineering.OrderDetailsActivity2
+ com.example.softwareengineering.OrderDetailsActivity2$1
+com/example/softwareengineering/NoBarcodeActivity.java
+ com.example.softwareengineering.NoBarcodeActivity
+ com.example.softwareengineering.NoBarcodeActivity$1
+ com.example.softwareengineering.NoBarcodeActivity$2
+ com.example.softwareengineering.NoBarcodeActivity$2$1
+ com.example.softwareengineering.NoBarcodeActivity$3
+com/example/softwareengineering/BuildConfig.java
+ com.example.softwareengineering.BuildConfig
+com/example/softwareengineering/TransactionActivity.java
+ com.example.softwareengineering.TransactionActivity
+ com.example.softwareengineering.TransactionActivity$1
+ com.example.softwareengineering.TransactionActivity$2
+com/example/softwareengineering/SplashScreenActivity.java
+ com.example.softwareengineering.SplashScreenActivity
+ com.example.softwareengineering.SplashScreenActivity$1
+com/example/softwareengineering/ScanProductCopyActivity.java
+ com.example.softwareengineering.ScanProductCopyActivity
+ com.example.softwareengineering.ScanProductCopyActivity$1
+ com.example.softwareengineering.ScanProductCopyActivity$2
+ com.example.softwareengineering.ScanProductCopyActivity$3
+ com.example.softwareengineering.ScanProductCopyActivity$4
+ com.example.softwareengineering.ScanProductCopyActivity$5
